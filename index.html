@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximim-scale=1.0, user-scalable=0">
+  <!-- отключает формирование ссылки у номера телефона на IOS -->
+  <meta name="format-detection" content="telephone=no" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container _container">
+        <a href="#" class="header__logo logo">
+          <img src="img/Header/logo.svg" alt="">
+          <img src="img/Header/black-logo.svg" alt="">
+        </a>
+        <div class="header__menu menu">
+          <div class="menu__burger">
+            <span></span>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li>
+                <a href="#product" class="menu__link">Product</a>
+                <ul class="menu__sub-list sub-menu">
+                  <li><a href="#database" class="sub-menu__link">Database</a></li>
+                  <li><a href="#authentication" class="sub-menu__link">Authentication</a></li>
+                  <li><a href="#storage" class="sub-menu__link">Storage</a></li>
+                  <li><a href="#functions" class="sub-menu__link">Functions</a></li>
+                  <li><a href="#coming-soon" class="sub-menu__link">Coming soon</a></li>
+                  <li><a href="#pricing" class="sub-menu__link">Pricing</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#developers" class="menu__link">Developers</a>
+                <ul class="menu__sub-list sub-menu">
+                  <li><a href="#documentation" class="sub-menu__link">Documentation</a></li>
+                  <li><a href="#reference" class="sub-menu__link">API Reference</a></li>
+                  <li><a href="#guides" class="sub-menu__link">Guides</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#beta" class="menu__link">Beta</a>                
+              </li>
+              <li>
+                <a href="#pricing" class="menu__link">Pricing</a>
+              </li>
+            </ul>
+            <div class="menu__buttons">
+              <a href="#start-project" class="menu__button btn">Start your project</a>
+              <a href="#" class="menu__button-link">Sign in</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <section class="store">
+        <div class="store__container _container">
+          <div class="store__body">
+            <div class="store__info">
+              <div class="store__icon">Storage</div>
+              <div class="store__title">Store and serve <br> any type of digital content</div>
+              <div class="store__text">
+                <p>An open source Object store service with unlimited scalability, for any file type.</p>
+                <p>With custom policies and permissions that are familiar and easy to implement.</p>
+              </div>
+              <a href="#start-project" class="store__button btn">Start a project</a>
+            </div>
+            <div class="store__img"><img src="img/Store/img.png" alt=""></div>
+          </div>
+          <div class="store__bottom">
+            <div class="store__column column-store">
+              <div class="column-store__icon"><img src="img/Store/01.svg" alt=""></div>
+              <div class="column-store__title">Interoperable</div>
+              <div class="column-store__text">Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.</div>
+            </div>
+            <div class="store__column column-store">
+              <div class="column-store__icon"><img src="img/Store/02.svg" alt=""></div>
+              <div class="column-store__title">Lightning fast</div>
+              <div class="column-store__text">Thin API server layer that leverages Postgres' permissions and performance.</div>
+            </div>
+            <div class="store__column column-store">
+              <div class="column-store__icon"><img src="img/Store/03.svg" alt=""></div>
+              <div class="column-store__title">Dependable</div>
+              <div class="column-store__text">Enterprise-level scalability and durability.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <selector class="sleek">
+        <div class="sleek__container _container">
+          <div class="sleek__top">
+            <div class="sleek__title">Sleek dashboard for managing your media</div>
+            <div class="sleek__text">
+              <p>A complete Object Explorer so that any of your team can use.</p>
+              <p>Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your desktop.</p>
+            </div>
+          </div>
+          <div class="sleek__bottom">
+            <div class="sleek__tabs tabs">
+              <nav class="tabs__items">
+                <a href="#tab_01" class="tabs__item active">File previews</a>
+                <a href="#tab_02" class="tabs__item">Column view</a>
+                <a href="#tab_03" class="tabs__item">List view</a>
+                <a href="#tab_04" class="tabs__item">Multi select actions</a>
+                <a href="#tab_05" class="tabs__item">Path navigator</a>
+              </nav>
+              <div class="tabs__body">
+                <div id="tab_01" class="tabs__block active"><img src="img/Sleek/tab_01.png" alt=""></div>
+                <div id="tab_02" class="tabs__block"><img src="img/Sleek/tab_02.png" alt=""></div>
+                <div id="tab_03" class="tabs__block"><img src="img/Sleek/tab_01.png" alt=""></div>
+                <div id="tab_04" class="tabs__block"><img src="img/Sleek/tab_02.png" alt=""></div>
+                <div id="tab_05" class="tabs__block"><img src="img/Sleek/tab_01.png" alt=""></div>
+              </div>
+            </div>
+            <div class="sleek__information">
+              <div class="sleek__name">File previews</div>
+              <div class="sleek__info">Preview any media type, including video and audio.</div>
+              <div class="sleek__example block-sleek">Check out our example app</div>
+              <div class="block-sleek__block">
+                <div class="block-sleek__title">Profile management example</div>
+                <div class="block-sleek__text">Update a user account with public profile information, including uploading a profile image.</div>
+                <div class="block-sleek__bottom-icon">
+                  <p>Created by:</p>
+                  <a href="#" class="block-sleek__logo logo">
+                    <img src="img/Header/logo.svg" alt="">
+                    <img src="img/Header/black-logo.svg" alt="">
+                  </a>                
+                </div>
+              </div>
+            <div class="sleek__file-name">nextjs-ts-user-management</div>
+            <a href="#" class="sleek__button">Deploy</a>
+            </div>
+          </div>
+        </div>
+      </selector>
+      <section class="block-info">
+        <div class="block-info__container _container"> 
+          <div class="block-info__info">
+            <div class="block-info__top top-block">
+              <h2>Simple and convenient APIs</h2>
+              <p>Built from the ground-up for interoperable authentication.</p>
+            </div>
+            <p>Fast and easy to implement using our powerful library clients. Asset optimization and image transformation coming soon!</p>
+            <div class="block-info__row">
+              <div class="block-info__column info-block">
+                <div class="info-block__img"><img src="img/Block_info/01.svg" alt=""></div>
+                <div class="info-block__title">CDN integration</div>
+                <div class="info-block__text">Serve from the edge to reduce latency.</div>
+                <a href="#" class="info-block__button">Coming soon</a>
+              </div>
+              <div class="block-info__column info-block">
+                <div class="info-block__img"><img src="img/Block_info/02.svg" alt=""></div>
+                <div class="info-block__title">CDN integration</div>
+                <div class="info-block__text">Serve from the edge to reduce latency.</div>
+                <a href="#" class="info-block__button">Coming soon</a>
+              </div>
+            </div>
+          </div>
+          <div class="sleek__tabs tabs">
+            <nav class="tabs__items">
+              <a href="#tab_01" class="tabs__item active">Upload a file</a>
+              <a href="#tab_02" class="tabs__item">Download a file</a>
+              <a href="#tab_03" class="tabs__item">List files</a>
+              <a href="#tab_04" class="tabs__item">Move and rename files</a>
+              <a href="#tab_05" class="tabs__item">Delete files</a>
+            </nav>
+            <div class="tabs__body">
+              <div id="tab_01" class="tabs__block active"><img src="img/Block_info/tabs/01.jpg" alt="tabs_01"></div>
+              <div id="tab_02" class="tabs__block"><img src="" alt="tabs_02"></div>
+              <div id="tab_03" class="tabs__block"><img src="" alt="tabs_03"></div>
+              <div id="tab_04" class="tabs__block"><img src="" alt="tabs_04"></div>
+              <div id="tab_05" class="tabs__block"><img src="" alt="tabs_05"></div>
+            </div>
+          </div>
+        <div>
+      </section>
+      <section class="block-info">
+        <div class="block-info__container _container"> 
+          <div class="block-info__info">
+            <div class="block-info__top top-block">
+              <h2>Integrates natively with Supabase Auth</h2>
+              <p>Using Postgres Row Level Security to create Object access rules.</p>
+            </div>
+            <div class="block-info__block-expore">
+              <p>Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres functions, and even your own metadata to write policies.</p>
+              <a href="#">Expore documentation</a>
+            </div>
+          </div>
+          <div class="sleek__tabs tabs">
+            <nav class="tabs__items">
+              <a href="#tab_01" class="tabs__item active">Public access to a bucket</a>
+              <a href="#tab_02" class="tabs__item">Public access to a folder</a>
+              <a href="#tab_03" class="tabs__item">Authenticated access to a bucket</a>
+            </nav>
+            <div class="tabs__body">
+              <div id="tab_01" class="tabs__block active"><img src="img/Block_info/tabs/02.png" alt="tabs_01"></div>
+              <div id="tab_02" class="tabs__block"><img src="" alt="tabs_02"></div>
+              <div id="tab_03" class="tabs__block"><img src="" alt="tabs_03"></div>
+            </div>
+          </div>
+        <div>
+      </section>
+      <section class="build">
+        <div class="build__container _container">
+          <div class="build__body">
+            <p>Build in a weekend, scale to millions</p>
+            <a class="btn" href="#">Start your project</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container _container">
+        <div class="footer__top">
+          <div class="footer__logo">
+            <a href="#" class="footer__logo logo"><img src="img/Header/logo.svg" alt=""><img src="img/Header/black-logo.svg" alt=""></a>
+            <span>
+              <a href="#"><img src="img/Footer/icon01.svg" alt=""></a>
+              <a href="#"><img src="img/Footer/icon02.svg" alt=""></a>
+            </span>
+          </div> 
+          <div class="footer__menu">
+            <ul class="footer__list">
+              <li>
+                <span>Product</span>
+                <ul class="footer__sub-list">
+                  <li><a href="#database">Database</a></li> 
+                  <li><a href="#authentication">Authentication</a></li>
+                  <li><a href="#storage">Storage</a></li>
+                  <li><a href="#functions">Functions</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>Resources</span>
+                <ul class="footer__sub-list">
+                  <li><a href="#support">Support</a></li>
+                  <li><a href="#case-studies">Case Studies</a></li>
+                  <li><a href="#system-status">System Status</a></li>
+                  <li><a href="#terms-service">Terms of service</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>Developers</span>
+                <ul class="footer__sub-list">
+                  <li><a href="#documentation">Documentation</a></li>
+                  <li><a href="#reference">API Reference</a></li>
+                  <li><a href="#guides">Guides</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>Company</span>
+                <ul class="footer__sub-list">
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="#open-source">Open Source</a></li>
+                  <li><a href="#humans">Humans.txt</a></li>
+                  <li><a href="#lawyers">Lawyers.txt</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__name">© Supabase Inc</div>
+          <form class="footer__form">
+            <div class="footer__input">
+              <input type="checkbox">
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="js/main.js"></script>
+</html>
